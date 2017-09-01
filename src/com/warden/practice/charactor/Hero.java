@@ -4,11 +4,11 @@ package com.warden.practice.charactor;
  * Created by Warden on 2017/8/31.
  */
 public class Hero {
+    public int id;
     public String name ;
     public float hp;
     public float armor;
     public int damage;
-    public int moveSpeed;
 
     public String getName() {
         return name;
@@ -32,14 +32,6 @@ public class Hero {
 
     public void setArmor(float armor) {
         this.armor = armor;
-    }
-
-    public int getMoveSpeed() {
-        return moveSpeed;
-    }
-
-    public void setMoveSpeed(int moveSpeed) {
-        this.moveSpeed = moveSpeed;
     }
 
     public synchronized void recover(){
