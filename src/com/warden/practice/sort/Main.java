@@ -29,7 +29,6 @@ public class Main {
         System.out.println(sortedNumbersBySelection);
         System.out.println(sortedNumbersByQuickSort);
         System.out.println(sortedNumbersByCollections);
-
         System.out.println("查看排序结果，是否内容相同");
         System.out.println("比较 选择法 和 二叉树 排序结果");
         System.out.println(Arrays.equals(sortedNumbersBySelection,sortedNumbersByBinaryTreeSort));
